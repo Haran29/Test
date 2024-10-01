@@ -17,12 +17,12 @@ pdf_collection = db['pdf_files']  # Collection for PDFs
 model = SentenceTransformer('paraphrase-MiniLM-L6-v2')
 
 # Load TF-IDF scores for query expansion
-with open('idf_values.pkl', 'rb') as file:
+with open('./idf_values.pkl', 'rb') as file:
     tfidf_scores = pickle.load(file)
 
-# Load Word2Vec model
-with open('word2vec_model.pkl', 'rb') as file:
+with open('./word2vec_model.pkl', 'rb') as file:
     expanded_model = pickle.load(file)
+
 
 def check_spelling(query):
     # Create a TextBlob object
