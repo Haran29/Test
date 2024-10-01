@@ -20,8 +20,8 @@ model = SentenceTransformer('paraphrase-MiniLM-L6-v2')
 with open('./idf_values.pkl', 'rb') as file:
     tfidf_scores = pickle.load(file)
 
-with open('./word2vec_model.pkl', 'rb') as file:
-    expanded_model = pickle.load(file)
+with open('./word2vec_model.pkl', 'rb') as model:
+    expanded_model = pickle.load(model)
 
 
 def check_spelling(query):
