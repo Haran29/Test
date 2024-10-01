@@ -1,7 +1,7 @@
-streamlit
 numpy
-pymongo
+pandas
 scikit-learn
 sentence-transformers
 textblob
-pickle-mixin
+pymongo
+streamlit
