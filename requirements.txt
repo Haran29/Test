@@ -5,4 +5,7 @@ sentence-transformers
 textblob
 pymongo
 streamlit
-gensim
+scipy==1.9.3
+gensim==4.1.2
+
+
