@@ -1,11 +1,12 @@
 numpy
 pandas
-scikit-learn
-sentence-transformers
-textblob
-pymongo
-streamlit
 scipy==1.9.3
 gensim==4.1.2
-
+streamlit==1.25.0  # Specify the Streamlit version
+numpy==1.24.3
+pymongo==4.5.0
+scikit-learn==1.2.2
+sentence-transformers==2.2.2
+textblob==0.17.1
+pickle5==0.0.11  # For working with pickle files
 
